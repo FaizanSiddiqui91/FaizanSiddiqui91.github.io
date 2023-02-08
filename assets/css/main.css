@@ -2305,7 +2305,7 @@ input::-moz-focus-inner {
   -ms-flex-align: stretch;
   align-items: stretch;
   max-width: 100%;
-  background-color: #151515;
+  background-color: #3366FF;
   margin-top: 3.2rem;
 }
 
@@ -2818,7 +2818,7 @@ body.search-is-visible {
 
   .header__nav-wrap {
     z-index: 99;
-    background: #151515;
+    background: #3366FF;
     opacity: 0;
     visibility: hidden;
     position: fixed;
