@@ -1,62 +1,207 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>My Personal Website</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        text-align: center;
-        background-color: #f2f2f2;
-      }
-      h1 {
-        font-size: 36px;
-        color: #333;
-        margin-top: 50px;
-      }
-      p {
-        font-size: 18px;
-        color: #555;
-        margin: 20px 0;
-      }
-      ul {
-        list-style: none;
-        display: inline-block;
-        margin-top: 50px;
-      }
-      li {
-        display: inline-block;
-        margin: 0 10px;
-      }
-      a {
-        font-size: 24px;
-        color: #0077ff;
-        text-decoration: none;
-      }
-      img {
-        height: 40px;
-        width: 40px;
-        vertical-align: middle;
-        margin-right: 10px;
-      }
-      .profile-picture {
-        display: block;
-        margin: 0 auto;
-        margin-top: 50px;
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Welcome to my Personal Website</h1>
-    <img class="profile-picture" src="[Image URL]" alt="Your Picture">
-    <p>Hi, I'm [Your Name] and this is my personal website. Feel free to check out my social media links below:</p>
-    <ul>
-      <li><a href="[Link to your Facebook account]"><img src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721679-facebook_105550.png" alt="Facebook Logo">Facebook</a></li>
-      <li><a href="[Link to your Twitter account]"><img src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721680-twitter_105552.png" alt="Twitter Logo">Twitter</a></li>
-      <li><a href="[Link to your LinkedIn account]"><img src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721682-linkedin_105554.png" alt="LinkedIn Logo">LinkedIn</a></li>
-      <li><a href="[Link to your Instagram account]"><img src="https://cdn.icon-icons.com/icons2/1584/PNG/512/3721681-instagram_105553.png" alt="Instagram Logo">Instagram</a></li>
-    </ul>
-  </body>
-</html>
+!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+  <!--- basic page needs
+================================================== -->
+<meta charset="utf-8">
+<title>Thomas Höllt &#8226; About Thomas</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- mobile specific metas
+================================================== -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSS
+================================================== -->
+<link rel="stylesheet" href="/assets/css/base.css">
+<link rel="stylesheet" href="/assets/css/vendor.css">
+<link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!-- script
+================================================== -->
+<script src="/assets/js/modernizr.js"></script>
+
+<!-- favicons
+================================================== -->
+<!-- TODO
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+-->
+
+<!-- analytics
+================================================== -->
+<script src="https://getinsights.io/js/insights.js"></script>
+<script>
+insights.init('rgCh29Fzt3idDR2T');
+insights.trackPages();
+</script>
+</head>
+
+<body>
+
+    <!-- preloader ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div id="top" class="s-wrap site-wrapper">
+    
+      <!-- site header
+================================================== -->
+<header class="s-header header">
+
+    <div class="header__top">
+        <div class="header__logo">
+            <a class="site-logo" href="index.html">
+                <img src="/assets/images/logo.svg" alt="Homepage">
+            </a>
+        </div>
+
+        <!-- toggles -->
+        <a href="#0" class="header__menu-toggle"><span>Menu</span></a>
+    </div>
+
+    <nav class="header__nav-wrap">
+
+        <ul class="header__nav">
+            <li><a href="/index.html" title="">About</a></li>
+            <li><a href="/teaching/" title="">Teaching</a></li>
+            <li><a href="/publications/" title="">Publications</a></li>
+            <li><a href="/contact/" title="">Contact</a></li>
+        </ul> <!-- end header__nav -->
+
+        <ul class="header__social">
+            <li class="ss-address">
+                <a href="https://maps.apple.com/?address=Van%20Mourik%20Broekmanweg%206,%202628%20XE%20Delft,%20Netherlands&auid=14847247505893078258&ll=51.999005,4.378132&lsp=9902&q=TU%20Delft%20-%20Mathematics%20%26%20Computer%20Science" alt="https://goo.gl/maps/c8CYdisjBKtTNrGj6">
+                    <span class="screen-reader-text">Address</span>
+                </a>
+            </li>
+            <li class="ss-email">
+                <a href="/cdn-cgi/l/email-protection#b8cc96d0d7d4d4cc9589f8cccddcddd4decc96d6d4">
+                    <span class="screen-reader-text">Email</span>
+                </a>
+            </li>
+            <li class="ss-twitter">
+                <a href="https://www.twitter.com/thomashollt" target="_blank">
+                    <span class="screen-reader-text">Twitter</span>
+                </a>
+            </li>
+            <li class="ss-github">
+                <a href="https://www.github.com/thoellt" target="_blank">
+                    <span class="screen-reader-text">Twitter</span>
+                </a>
+            </li>
+        </ul>
+
+    </nav> <!-- end header__nav-wrap -->
+
+</header> <!-- end s-header -->
+    
+      <!-- site content ================================================== -->
+<div class="s-content content">
+    <main class="row s-styles">
+        
+        <section class="column large-full entry format-standard">
+
+            <div class="content__page-header">
+                <h1 class="display-1">
+                Hello, I am Thomas.
+                </h1>
+            </div> <!-- end content__page-header -->
+
+            <div class="row">
+              
+              <div class="column large-3 tab-full">
+                <p>
+                  <img alt="portrait-thomas" src="/assets/images/portrait.jpg">
+                </p>
+              </div>
+              
+              <div class="column large-9 tab-full">
+                <p class="drop-cap">
+                I am a tenured assistant professor in the <a href="https://graphics.tudelft.nl" target="_blank">Computer Graphics and Visualization group</a> at <a href="https://www.tudelft.nl" target="_blank">TU Delft</a>.
+                Before that I was an assistant professor in the <a href="https://www.lcbc.nl" target="_blank">Leiden Computational Biology Center</a> (until 2020) and a Postdoctoral researcher in the <a href="https://graphics.tudelft.nl" target="_blank">Computer Graphics and Visualization group</a> at <a href="https://www.tudelft.nl" target="_blank">TU Delft</a>.
+                I received my PhD from <a href="https://www.kaust.edu.sa" target="_blank">King Abdullah University of Science and Technology</a> in 2013.
+                </p>
+
+                <p>
+                My research interests include Visualization and Visual Analytics, with a focus on high-dimensional data and bio-/medical applications. I lead the research and development of <a href="https://www.cytosplore.org" target=_blank>Cytosplore</a>, an interactive visual analytics platform for cytometry data which is used by researchers world-wide. In 2019, I received the <a href="/publications/2019_dirk_bartz_prize/" target=_blank>Dirk Bartz Prize for Visual Computing in Medicine for the Cytosplore project</a>. Further, my research won best paper and honorable mention awards at VCBM and PacificVis, respectively.
+                </p>
+
+                <p>
+                If you are a master student looking for a possible theses topic, we have several open projects and possibilities within topics related to data visualization in general, visual analytics and biomedical visualization. The projects can range fundamental to very applied. If you are interested in a project in the direction of my research, please, contact me and we can discuss the possibilities.
+                </p>
+              </div>
+            
+            </div>
+
+            <hr>
+            
+            <header class="listing-header">
+                <h1 class="h2">Recent Publications</h1>
+            </header>
+    
+            <div class="masonry-wrap">
+
+                <div class="masonry">
+
+                    <div class="grid-sizer"></div>
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                        <article class="masonry__brick entry format-standard animate-this">
+    
+    
+    <div class="entry__thumb">
+        <a href="/publications/2022_spidr/" class="entry__thumb-link">
+            <img src="/assets/papers/2022_pacific_vis_spidr/2022_pacific_vis_spidr.png" alt=" screenshot">
+        </a>
+    </div>
+    
+
+    <div class="entry__text">
+        <div class="entry__header">
+
+            <div class="entry__title"><a href="/publications/2022_spidr/">Incorporating Texture Information into Dimensionality Reduction for High-Dimensional Images</a></div>
+            <div class="entry__meta">
+                <a href="/publications/2022_spidr/">
+                <span class="entry__meta-date">
+                	
+                  		In Proceedings of the 15th IEEE Pacific Visualization Symposium,
+	                
+                	2022
+                </span></a>
+            </div>
+            
+        </div>
+        <div class="entry__excerpt">
+            <p>
+                High-dimensional imaging is becoming increasingly relevant in many fields from astronomy and cultural heritage to systems biology. Visual exploration of such high-dimensional data is commonly facilitated by dimensionality reduction. However,...
+            </p>
+        </div>
+        <div class="entry__links">
+            <a href="/assets/papers/2022_pacific_vis_spidr/2022_pacific_vis_spidr.pdf" target=_blank><span class="paper-btn">pdf</span></a>
+            
+            <a href="https://github.com/biovault/Spidr" target=_blank><span class="paper-btn">code</span></a>
+            
+            
+            <a href="https://dx.doi.org/10.1109/PacificVis53943.2022.00010" target=_blank><span class="paper-btn">DOI</span></a>
+            
+        </div>
+    </div>
+
+</article> <!-- end article -->
